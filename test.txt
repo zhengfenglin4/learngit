@@ -1,2 +1,41 @@
 testteststst
+ 332  git branch -d feature-vulcan
+  333  git checkout dev
+       #没有合并时完全删除分支
+  334  git branch -D feature-vulcan
+  335  git branch
+  336  git remote -v
+  337  git push
+  338  git branch
+  339  git log
+  340  git branch
+  341  git log
+  342  git push origin dev
+  343  git master
+  344  git checkout master
+  345  git merge --no-ff -m  "merged dev " dev
+  346  git status
+  350  history | grep git
+  351  history | grep git > git_shell.log
+                                            
 git checkout -b issue-101
+git branch -d feature-vulca
+ 332  git branch -d feature-vulcan
+  333  git checkout dev
+       #没有合并时完全删除分支
+  334  git branch -D feature-vulcan
+  335  git branch
+  336  git remote -v
+  337  git push
+  338  git branch
+  339  git log
+  340  git branch
+  341  git log
+  342  git push origin dev
+  343  git master
+  344  git checkout master
+  345  git merge --no-ff -m  "merged dev " dev
+  346  git status
+  350  history | grep git
+  351  history | grep git > git_shell.log
+                                            
